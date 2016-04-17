@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="META-INF">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/src/main/java/org/funkntrash/potato/META-INF" />
+    </ANNOTATIONS>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
