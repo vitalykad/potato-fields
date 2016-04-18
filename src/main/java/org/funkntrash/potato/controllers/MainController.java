@@ -1,6 +1,6 @@
 package org.funkntrash.potato.controllers;
 
-import org.funkntrash.potato.services.PhotoService;
+import org.funkntrash.potato.services.PhotoServiceImpl;
 import org.funkntrash.potato.models.PhotosEntity;
 
 import org.springframework.stereotype.Controller;
@@ -20,7 +20,7 @@ public class MainController {
     @RequestMapping("/index.html")
     public String index(Model model) {
 
-        List<PhotosEntity> photos = PhotoService.getAll();
+        List<PhotosEntity> photos = new PhotoServiceImpl().listPhotos();
 
         model.addAttribute("photos", photos);
 

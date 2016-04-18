@@ -4,7 +4,11 @@ package org.funkntrash.potato.test;
  * Created by Home on 16.04.2016.
  */
 
+import org.funkntrash.potato.domain.PhotoDAO;
+import org.funkntrash.potato.domain.PhotoDAOImpl;
 import org.funkntrash.potato.models.PhotosEntity;
+import org.funkntrash.potato.services.PhotoService;
+import org.funkntrash.potato.services.PhotoServiceImpl;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -19,11 +23,28 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        PhotosEntity photo = new PhotosEntity();
+        photo.setUrl("http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01001/opgs/edr/fcam/FLB_486349618EDR_F0481570FHAZ00323M_.JPG");
+        photo.setSol(1002);
+
+        PhotoService photoService = new PhotoServiceImpl();
+        //photoService.addPhoto(photo);
+
+        List<PhotosEntity> result = photoService.listPhotos();
+
+        for ( PhotosEntity photosEntity : result ) {
+            System.out.println( photosEntity.getSol() );
+        }
+
+
+
+        /*    EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
         List<PhotosEntity> result = entityManager.createQuery(SELECT_QUERY).getResultList();
+
+        System.out.println( "Select ok");
 
         for ( PhotosEntity photosEntity : result ) {
             System.out.println( photosEntity.getSol() );
