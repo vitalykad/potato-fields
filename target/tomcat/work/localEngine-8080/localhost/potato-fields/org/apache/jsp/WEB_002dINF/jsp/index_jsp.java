@@ -59,6 +59,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("<head>\n");
       out.write("    <title>Марсианская целина</title>\n");
+      out.write("    <style>\n");
+      out.write("        body{\n");
+      out.write("            background-color: orange; /* Цвет фона веб-страницы */\n");
+      out.write("        }\n");
+      out.write("    </style>\n");
       out.write("</head>\n");
       out.write("<body>\n");
       out.write("\n");
@@ -90,9 +95,9 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.taglibs.standard.tag.rt.core.ForEachTag _jspx_th_c_005fforEach_005f0 = (org.apache.taglibs.standard.tag.rt.core.ForEachTag) _005fjspx_005ftagPool_005fc_005fforEach_0026_005fvar_005fitems.get(org.apache.taglibs.standard.tag.rt.core.ForEachTag.class);
     _jspx_th_c_005fforEach_005f0.setPageContext(_jspx_page_context);
     _jspx_th_c_005fforEach_005f0.setParent(null);
-    // /WEB-INF/jsp/index.jsp(11,0) name = items type = javax.el.ValueExpression reqTime = true required = false fragment = false deferredValue = true expectedTypeName = java.lang.Object deferredMethod = false methodSignature = null
-    _jspx_th_c_005fforEach_005f0.setItems(new org.apache.jasper.el.JspValueExpression("/WEB-INF/jsp/index.jsp(11,0) '${photos}'",_el_expressionfactory.createValueExpression(_jspx_page_context.getELContext(),"${photos}",java.lang.Object.class)).getValue(_jspx_page_context.getELContext()));
-    // /WEB-INF/jsp/index.jsp(11,0) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/jsp/index.jsp(16,0) name = items type = javax.el.ValueExpression reqTime = true required = false fragment = false deferredValue = true expectedTypeName = java.lang.Object deferredMethod = false methodSignature = null
+    _jspx_th_c_005fforEach_005f0.setItems(new org.apache.jasper.el.JspValueExpression("/WEB-INF/jsp/index.jsp(16,0) '${photos}'",_el_expressionfactory.createValueExpression(_jspx_page_context.getELContext(),"${photos}",java.lang.Object.class)).getValue(_jspx_page_context.getELContext()));
+    // /WEB-INF/jsp/index.jsp(16,0) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fforEach_005f0.setVar("photo");
     int[] _jspx_push_body_count_c_005fforEach_005f0 = new int[] { 0 };
     try {
@@ -101,12 +106,12 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
         do {
           out.write("\n");
           out.write("    <div>\n");
-          out.write("        <h4>Сол ");
+          out.write("        <h4 align=\"center\">Сол ");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${photo.sol}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
           out.write("</h4>\n");
           out.write("    <img src=");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${photo.url}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write(" alt=\"альтернативный текст\" width=\"500\" height=\"500\">\n");
+          out.write(" width=\"500\" height=\"500\" align=\"center\">\n");
           out.write("    </div>\n");
           int evalDoAfterBody = _jspx_th_c_005fforEach_005f0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

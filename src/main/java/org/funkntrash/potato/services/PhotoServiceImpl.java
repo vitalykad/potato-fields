@@ -19,8 +19,13 @@ public class PhotoServiceImpl implements PhotoService{
 
     public List<PhotosEntity> listPhotos(){
 
-        photoDAO = new PhotoDAOImpl();
-        return photoDAO.listPhoto();
+        return new PhotoDAOImpl().listPhoto();
+
+    }
+
+    public PhotosEntity getMaxSolPhoto(){
+
+        return new PhotoDAOImpl().getMaxSolPhoto();
 
     }
 

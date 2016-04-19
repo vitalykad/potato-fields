@@ -3,6 +3,11 @@
 <html>
 <head>
     <title>Марсианская целина</title>
+    <style>
+        body{
+            background-color: orange; /* Цвет фона веб-страницы */
+        }
+    </style>
 </head>
 <body>
 
@@ -10,8 +15,8 @@
 
 <c:forEach items="${photos}" var="photo">
     <div>
-        <h4>Сол ${photo.sol}</h4>
-    <img src=${photo.url} alt="альтернативный текст" width="500" height="500">
+        <h4 align="center">Сол ${photo.sol}</h4>
+    <img src=${photo.url} width="500" height="500" align="center">
     </div>
 </c:forEach>
 

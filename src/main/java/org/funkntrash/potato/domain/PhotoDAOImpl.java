@@ -11,6 +11,8 @@ import java.util.List;
  * Created by funkntrash on 18.04.16.
  */
 public class PhotoDAOImpl implements PhotoDAO {
+
+
     public List<PhotosEntity> listPhoto(){
 
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
@@ -36,6 +38,31 @@ public class PhotoDAOImpl implements PhotoDAO {
 
         entityManager.getTransaction().commit();
         entityManager.close();
+
+    }
+
+    public PhotosEntity getMaxSolPhoto(){
+
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        entityManager.getTransaction().begin();
+
+        // не разобрал почему не сработало
+        // PhotosEntity result = entityManager.createQuery(" from PhotosEntity where sol=max(sol) ").getResultList().get(0);
+
+        List<PhotosEntity> photoList =  entityManager.createQuery(" from PhotosEntity pe where pe.sol in (select max(p.sol) from PhotosEntity p) ").getResultList();
+
+
+        entityManager.getTransaction().commit();
+        entityManager.close();
+
+
+        if (!photoList.isEmpty()) {
+            return photoList.get(0);
+        }
+        else{
+            return null;
+        }
 
     }
 }

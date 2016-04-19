@@ -13,4 +13,6 @@ public interface PhotoDAO {
 
     public void addPhoto(PhotosEntity photosEntity);
 
+    public PhotosEntity getMaxSolPhoto();
+
 }

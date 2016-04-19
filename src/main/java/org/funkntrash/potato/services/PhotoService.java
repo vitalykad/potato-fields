@@ -9,4 +9,6 @@ public interface PhotoService {
 
     public void addPhoto(PhotosEntity photosEntity);
 
+    public PhotosEntity getMaxSolPhoto();
+
 }

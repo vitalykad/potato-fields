@@ -12,6 +12,7 @@ public class PhotosEntity {
     private String url;
     private Integer sol;
 
+
     @Id
     @Column(name = "ID", nullable = false)
     public int getId() {
