@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cdfc4af-9d1a-499a-b132-1226dd0d899d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/Scheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/test/FillerApp.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/PhotoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/PhotoServiceImpl.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/controllers/MainController.class" afterPath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/controllers/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/models/PhotosEntity.class" afterPath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/models/PhotosEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/services/PhotoService.class" afterPath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/services/PhotoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/test/AppMain.class" afterPath="$PROJECT_DIR$/target/classes/org/funkntrash/potato/test/AppMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/localEngine-8080/localhost/potato-fields/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/localEngine-8080/localhost/potato-fields/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/potato_fields_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/potato_fields_war_exploded.xml" />
+    <list default="true" id="0cdfc4af-9d1a-499a-b132-1226dd0d899d" name="Default" comment="Прибрался в шедулере">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/potato-fields.iml" afterPath="$PROJECT_DIR$/potato-fields.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/domain/PhotoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/domain/PhotoDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/domain/PhotoDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/domain/PhotoDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/models/PhotosEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/models/PhotosEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/PhotoService.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/PhotoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/PhotoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/PhotoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/test/AppMain.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/test/AppMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/localEngine-8080/localhost/potato-fields/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/localEngine-8080/localhost/potato-fields/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/Scheduler.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/Scheduler.java" />
     </list>
     <ignored path="potato-fields.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,12 +57,12 @@
       <file leaf-file-name="Scheduler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state relative-caret-position="810">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#933#949#0" expanded="true" />
-                <element signature="e#2097#2113#0" expanded="true" />
+                <element signature="e#850#866#0" expanded="true" />
+                <element signature="e#1363#1379#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -374,32 +351,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="potato-fields" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="potato-fields" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1189,7 +1140,7 @@
       <workItem from="1460978671401" duration="100000" />
       <workItem from="1460978786716" duration="61000" />
       <workItem from="1460978977863" duration="23386000" />
-      <workItem from="1461062654860" duration="11265000" />
+      <workItem from="1461062654860" duration="13896000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал доступ к БД и отрисовку index.html, но пока не в очень Spring-овой форме">
       <created>1460987519020</created>
@@ -1198,11 +1149,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460987519020</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="сделал запросы в наса и обновление базы по шедулеру раз в сол (точнее раз в 88775245 миллисекуд - это сол?)">
+      <created>1461073978423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1461073978423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57737000" />
+    <option name="totallyTimeSpent" value="60368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1224,15 +1182,15 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21185984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3227561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19401632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30277777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19351852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2470238" sideWeight="0.29296234" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3212938" sideWeight="0.7070376" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946378" sideWeight="0.7070376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2473525" sideWeight="0.2967033" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1263,7 +1221,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="реализовал доступ к БД и отрисовку index.html, но пока не в очень Spring-овой форме" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализовал доступ к БД и отрисовку index.html, но пока не в очень Spring-овой форме" />
+    <MESSAGE value="сделал запросы в наса и обновление базы по шедулеру раз в сол (точнее раз в 88775245 миллисекуд - это сол?)" />
+    <MESSAGE value="Прибрался в шедулере" />
+    <option name="LAST_COMMIT_MESSAGE" value="Прибрался в шедулере" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1479,6 +1439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,12 +1595,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/funkntrash/potato/services/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="810">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#933#949#0" expanded="true" />
-            <element signature="e#2097#2113#0" expanded="true" />
+            <element signature="e#850#866#0" expanded="true" />
+            <element signature="e#1363#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>

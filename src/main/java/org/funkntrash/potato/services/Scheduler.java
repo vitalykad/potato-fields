@@ -16,12 +16,63 @@ import java.util.Map;
 public class Scheduler {
 
     private static int current_sol = 0;
+    private static final String ANGRY_BATKO_IMG="http://image.zn.ua/media/images/original/Jan2015/107798.jpg";
+    private static final String API_URL="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS";
 
-    @Scheduled(fixedRate = 88775245)
+
+    private int getMaxSol(){
+
+        Map<String,String> vars = new HashMap<String, String>();
+        vars.put("sol","none");
+
+
+        String res = new RestTemplate().getForObject(API_URL, String.class, vars);
+        JSONObject json = new JSONObject(res);
+        JSONArray photosArray = (JSONArray) json.get("photos");
+        JSONObject firstPhoto = (JSONObject) photosArray.get(0);
+        JSONObject rover = (JSONObject) firstPhoto.get("rover");
+
+        return  rover.getInt("max_sol");
+
+    }
+
+    private void addSolPhoto(int sol){
+
+        Map<String,String> vars = new HashMap<String, String>();
+        vars.put("sol","" + sol);
+
+        PhotoService photoService = new PhotoServiceImpl();
+
+        try {
+            String res = new RestTemplate().getForObject(API_URL, String.class, vars);
+            JSONObject json = new JSONObject(res);
+            JSONArray photosArray = (JSONArray) json.get("photos");
+            JSONObject firstPhoto = (JSONObject) photosArray.get(0);
+            PhotosEntity photo = new PhotosEntity();
+            photo.setUrl(firstPhoto.getString("img_src"));
+            photo.setSol(sol);
+
+            photoService.addPhoto(photo);
+
+        }
+        catch (HttpClientErrorException e){
+            System.out.print("Батько недоволен");
+
+            PhotosEntity photo = new PhotosEntity();
+            photo.setUrl(ANGRY_BATKO_IMG);
+            photo.setSol(sol);
+
+            photoService.addPhoto(photo);
+        }
+
+    }
+
+    //@Scheduled(fixedRate = 88775245)
+    @Scheduled(fixedRate = 10000)
     public void clearTempFolder() {
+
         PhotoService photoService = new PhotoServiceImpl();
         PhotosEntity photosEntity = photoService.getMaxSolPhoto();
-
 
         if (photosEntity != null){
 
@@ -31,77 +82,19 @@ public class Scheduler {
                 current_sol++;
             }
 
-
-            Map<String,String> vars = new HashMap<String, String>();
-            vars.put("sol","" + current_sol);
-
-            try {
-                String res = new RestTemplate().getForObject("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS", String.class, vars);
-                JSONObject json = new JSONObject(res);
-                JSONArray photosArray = (JSONArray) json.get("photos");
-                JSONObject firstPhoto = (JSONObject) photosArray.get(0);
-                PhotosEntity photo = new PhotosEntity();
-                photo.setUrl(firstPhoto.getString("img_src"));
-                photo.setSol(current_sol);
-
-                photoService.addPhoto(photo);
-
-            }
-            catch (HttpClientErrorException e){
-                System.out.print("Батько недоволен");
-
-                PhotosEntity photo = new PhotosEntity();
-                photo.setUrl("http://image.zn.ua/media/images/original/Jan2015/107798.jpg");
-                photo.setSol(current_sol);
-
-                photoService.addPhoto(photo);
-            }
-
-
-
         }
         else {
-            Map<String,String> vars = new HashMap<String, String>();
-            vars.put("sol","none");
 
+            //На время тестирования используем вчерашний сол
 
-            String res = new RestTemplate().getForObject("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS", String.class, vars);
-            JSONObject json = new JSONObject(res);
-            JSONArray photosArray = (JSONArray) json.get("photos");
-            JSONObject firstPhoto = (JSONObject) photosArray.get(0);
-            JSONObject rover = (JSONObject) firstPhoto.get("rover");
-
-            current_sol = rover.getInt("max_sol") - 1;
-
-            try {
-                vars.put("sol",""+ current_sol);
-
-                res = new RestTemplate().getForObject("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS", String.class, vars);
-
-                json = new JSONObject(res);
-                photosArray = (JSONArray) json.get("photos");
-                firstPhoto = (JSONObject) photosArray.get(0);
-
-                PhotosEntity photo = new PhotosEntity();
-                photo.setUrl(firstPhoto.getString("img_src"));
-                photo.setSol(current_sol);
-
-                photoService.addPhoto(photo);
-
-            }
-            catch (HttpClientErrorException e){
-
-                System.out.print("Батько недоволен");
-
-                PhotosEntity photo = new PhotosEntity();
-                photo.setUrl("http://image.zn.ua/media/images/original/Jan2015/107798.jpg");
-                photo.setSol(current_sol);
-
-                photoService.addPhoto(photo);
-            }
-
+            current_sol = getMaxSol() - 1;
 
         }
+
+        addSolPhoto(current_sol);
+
     }
+
+
 
 }
