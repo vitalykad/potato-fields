@@ -20,7 +20,7 @@ public class Scheduler {
     private static final String API_URL="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS";
 
 
-    private int getMaxSol(){
+    private int getMaxSolFromNASA(){
 
         Map<String,String> vars = new HashMap<String, String>();
         vars.put("sol","none");
@@ -87,7 +87,7 @@ public class Scheduler {
 
             //На время тестирования используем вчерашний сол
 
-            current_sol = getMaxSol() - 1;
+            current_sol = getMaxSolFromNASA() - 1;
 
         }
 
