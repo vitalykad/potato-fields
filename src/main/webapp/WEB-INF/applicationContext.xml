@@ -10,7 +10,10 @@
         http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
     <task:annotation-driven />
-    <bean id="scheduler" class="org.funkntrash.potato.services.Scheduler">
+    <bean id="scheduler" class="org.funkntrash.potato.schedulers.MainScheduler">
     </bean>
+
+    <context:component-scan
+            base-package="org.funkntrash.potato"/>
 
 </beans>

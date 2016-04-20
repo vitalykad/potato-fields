@@ -37,7 +37,10 @@ public class AppMain {
 
 
         PhotoService photoService = new PhotoServiceImpl();
+        //photoService.addPhoto();
         PhotosEntity photosEntity = photoService.getMaxSolPhoto();
+        List<PhotosEntity> photosEntities = photoService.listPhotos();
+        System.out.println(photosEntity.getUrl());
 
 /*
         if (photosEntity != null){

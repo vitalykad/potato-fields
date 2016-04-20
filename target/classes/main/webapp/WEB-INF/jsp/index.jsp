@@ -15,8 +15,8 @@
 
 <c:forEach items="${photos}" var="photo">
     <div>
-        <h4 align="center">Сол ${photo.sol}</h4>
-    <img src=${photo.url} width="500" height="500" align="center">
+        <h4>Сол ${photo.sol}</h4>
+    <img src=${photo.url} width="500" height="500">
     </div>
 </c:forEach>
 

@@ -13,4 +13,10 @@
     <bean id="scheduler" class="org.funkntrash.potato.services.Scheduler">
     </bean>
 
+    <context:annotation-config />
+
+    <context:component-scan
+            base-package="org.funkntrash.potato">
+    </context:component-scan>
+
 </beans>

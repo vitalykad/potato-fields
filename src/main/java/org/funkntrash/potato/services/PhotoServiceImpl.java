@@ -2,7 +2,6 @@ package org.funkntrash.potato.services;
 
 import org.funkntrash.potato.domain.PhotoDAO;
 
-import org.funkntrash.potato.domain.PhotoDAOImpl;
 import org.funkntrash.potato.models.PhotosEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,27 +12,28 @@ import java.util.List;
  * Created by funkntrash on 18.04.16.
  */
 
+@Service
 public class PhotoServiceImpl implements PhotoService{
 
-    private PhotoDAO photoDAO;
+    @Autowired
+    private PhotoDAO photoDAOImpl;
+
 
     public List<PhotosEntity> listPhotos(){
 
-        return new PhotoDAOImpl().listPhoto();
+        return photoDAOImpl.listPhoto();
 
     }
 
     public PhotosEntity getMaxSolPhoto(){
 
-        return new PhotoDAOImpl().getMaxSolPhoto();
+        return photoDAOImpl.getMaxSolPhoto();
 
     }
 
     public void addPhoto(PhotosEntity photosEntity){
 
-        photoDAO = new PhotoDAOImpl();
-        photoDAO.addPhoto(photosEntity);
-
+        photoDAOImpl.addPhoto(photosEntity);
 
     }
 
