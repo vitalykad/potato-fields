@@ -82,8 +82,11 @@ public class MainScheduler {
 
     }
 
-    @Scheduled(fixedRate = 88775245)
+
+    //Для тестового режим
     //@Scheduled(fixedRate = 10000)
+    //В боевом режиме
+    @Scheduled(fixedRate = 88775245)
     private void clearTempFolder() {
 
         PhotosEntity photosEntity = photoServiceImpl.getMaxSolPhoto();
@@ -99,9 +102,13 @@ public class MainScheduler {
         }
         else {
 
-            //На время тестирования используем вчерашний сол
+            //В боевом режиме выбираем последний сол
 
-            current_sol = getMaxSolFromNASA() - 1;
+            current_sol = getMaxSolFromNASA();
+
+            //На время тестирования используем предпоследний сол
+
+            //current_sol = getMaxSolFromNASA() - 1;
 
         }
 
