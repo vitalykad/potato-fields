@@ -82,8 +82,8 @@ public class MainScheduler {
 
     }
 
-    //@Scheduled(fixedRate = 88775245)
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 88775245)
+    //@Scheduled(fixedRate = 10000)
     private void clearTempFolder() {
 
         PhotosEntity photosEntity = photoServiceImpl.getMaxSolPhoto();

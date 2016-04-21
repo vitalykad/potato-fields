@@ -14,7 +14,7 @@
 <h1 align="center"> Фотографии картофельных полей </h1>
 
 <c:forEach items="${photos}" var="photo">
-    <div>
+    <div align="center">
         <h4>Сол ${photo.sol}</h4>
     <img src=${photo.url} width="500" height="500">
     </div>
