@@ -1,9 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cdfc4af-9d1a-499a-b132-1226dd0d899d" name="Default" comment="Финальная версия с тестами +">
+    <list default="true" id="0cdfc4af-9d1a-499a-b132-1226dd0d899d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/bootstrap.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/commons-daemon.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/jsvc.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/tomcat-juli.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/tomcat-native.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/annotations-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/catalina-ant.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/catalina-ha.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/catalina-tribes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/catalina.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/el-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/jasper-el.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/jasper-jdt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/jasper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/jsp-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/servlet-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/tomcat-coyote.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/tomcat-dbcp.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/tomcat-i18n-es.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/tomcat-i18n-fr.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/lib/tomcat-i18n-ja.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/temp/safeToDelete.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/asf-logo-wide.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/tomcat-power.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/tomcat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/sample.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/web/images/tomcat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/requestProcess/requestProcess.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/startup/serverStartup.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/asf-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/design.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/docs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/fix.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/printer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/tomcat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/update.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/void.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/CookieExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/HelloWorldExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestHeaderExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestInfoExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestParamExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/SessionExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/Entries.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/JspCalendar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/TableBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/chat/ChatServlet$MessageSender.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/chat/ChatServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/dates/JspCalendar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/error/Smart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/FooTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/LogTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/ShowSource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/RequestDumperFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/SetCharacterEncodingFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/listeners/ContextListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/listeners/SessionListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/servletToJsp.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/sessions/DummyCart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/util/HTMLFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/validators/DebugValidator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/lib/jstl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/lib/standard.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/images/code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/images/execute.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/images/read.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/images/return.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/textRotate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/plugin/applet/Clock2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/images/code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/images/execute.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/images/return.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/asf-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/design.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/docs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/fix.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/tomcat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/update.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/images/void.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/asf-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/code.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/design.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/docs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/fix.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/tomcat.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/update.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/images/void.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/potato-fields.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/RELEASE-NOTES" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/RUNNING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/catalina-tasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/catalina.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/catalina.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/cpappend.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/digest.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/digest.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/setclasspath.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/setclasspath.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/shutdown.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/shutdown.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/startup.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/startup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/tool-wrapper.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/tool-wrapper.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/version.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/bin/version.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/catalina.policy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/catalina.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/logging.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/server.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/tomcat-users.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/conf/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/RELEASE-NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/ROOT/tomcat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/BUILDING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/RELEASE-NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/RUNNING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/aio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/build.xml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/deployment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/installation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/processes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/docs/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/src/mypackage/Hello.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/web/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/sample/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/appdev/web.xml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/apr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/overview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/requestProcess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/requestProcess/roseModel.mdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/startup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/architecture/startup/serverStartup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/balancer-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/building.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/cgi-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/changelog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/class-loader-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/cluster-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/ajp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-channel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-deployer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-interceptor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-listener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-membership.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-receiver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-sender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster-valve.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/cluster.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/context.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/engine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/executor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/globalresources.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/host.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/http.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/listeners.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/loader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/realm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/resources.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/service.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/systemprops.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/config/valve.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/connectors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/default-servlet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/deployer-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/developers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/extras.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-admin-apps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-admin-objects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-admin-opers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-invoker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-jdbc-realm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-jndi-realm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/fs-memory-realm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/funcspecs/mbean-names.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/html-manager-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/images/tomcat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/jasper-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/jndi-datasource-examples-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/jndi-resources-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/logging.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/manager-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/maven-jars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/mbeans-descriptor-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/monitoring.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/proxy-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/realm-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/security-manager-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/ssi-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/ssl-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/tribes/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/tribes/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/tribes/setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/virtual-hosting-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/docs/windows-service-howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/CookieExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/HelloWorldExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/LocalStrings.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/LocalStrings_en.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/LocalStrings_es.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestInfoExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/RequestParamExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/SessionExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/Entries.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/Entry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/cal/TableBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/chat/ChatServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/error/Smart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/FooTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/LogTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/examples/ShowSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/RequestDumperFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/filters/SetCharacterEncodingFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/listeners/ContextListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/listeners/SessionListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/servletToJsp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/sessions/DummyCart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/jsp/applet/Clock2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/jsp/debug-taglib.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/jsp/example-taglib.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/jsp2/jsp2-example-taglib.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/tags/displayProducts.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/tags/helloWorld.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/tags/panel.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/tags/xhtmlbasic.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/Entries.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/Entry.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/JspCalendar.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/TableBean.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/cal1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/cal1.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/cal2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/cal2.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/cal/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/chat.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/chat.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/login.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/post.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/chat/post.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/checkbox/CheckTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/checkbox/check.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/checkbox/checkresult.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/checkbox/checkresult.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/checkbox/cresult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/colors/ColorGameBean.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/colors/clr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/colors/colors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/colors/colrs.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/colors/colrs.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/dates/date.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/dates/date.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/dates/date.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/er.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/err.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/err.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/errorpge.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/error/errorpge.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/forward.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/forward.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/fwd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/one.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/one.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/forward/two.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/foo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/foo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/foo.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/inc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/include.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/include/include.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/Functions.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-arithmetic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-comparisons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/functions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/functions.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/functions.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/implicit-objects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/implicit-objects.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/basic.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/basic.jspx.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/svgexample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/textRotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/coda.jspf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/coda.jspf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/config.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/config.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/prelude.jspf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/misc/prelude.jspf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/Functions.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/book.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/book.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/book.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/repeat.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/panel.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/products.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsp2/tagfiles/xhtmlbasic.tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/hello.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/jts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/jsptoserv/servletToJsp.java.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/num/numguess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/num/numguess.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/num/numguess.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/plugin/applet/Clock2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/plugin/plugin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/plugin/plugin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/plugin/plugin.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/error.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/index.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/security/protected/login.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/sessions/DummyCart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/sessions/carts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/sessions/carts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/sessions/carts.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/sessions/crt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/simpletag/foo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/simpletag/foo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/simpletag/foo.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/snp/snoop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/snp/snoop.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/snp/snoop.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/source.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/source.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/choose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/choose.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/choose.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/foreach.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/foreach.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/foreach.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/howto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/if.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/if.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/if.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/tagplugin/notes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/xml/xml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/xml/xml.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/jsp/xml/xml.jsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/cookies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/helloworld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/reqheaders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/reqinfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/reqparams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/examples/servlets/sessions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/META-INF/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/host-manager/manager.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/401.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/META-INF/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/WEB-INF/jsp/sessionsList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/status.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/apache-tomcat-6.0.26/webapps/manager/xform.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/potato-fields.war" afterPath="$PROJECT_DIR$/target/potato-fields.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/schedulers/MainScheduler.java" afterPath="$PROJECT_DIR$/src/main/java/org/funkntrash/potato/schedulers/MainScheduler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="potato-fields.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +567,7 @@
       <file leaf-file-name="MainScheduler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/funkntrash/potato/schedulers/MainScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="465">
               <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -576,7 +1062,7 @@
       <recent name="C:\Users\Home\Downloads\potato-fields\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.potato-fields [tomcat6:run]">
+  <component name="RunManager" selected="Maven.potato-fields [package]">
     <configuration default="false" name="TestNGSimpleTest.test2AddPhoto" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1156,8 +1642,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.potato-fields [tomcat6:run]" />
-        <item index="1" class="java.lang.String" itemvalue="Maven.potato-fields [package]" />
+        <item index="0" class="java.lang.String" itemvalue="Maven.potato-fields [package]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.potato-fields [tomcat6:run]" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.PhotoDAOImplTest" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.TestNGSimpleTest.test2AddPhoto" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.TestNGSimpleTest" />
@@ -1195,7 +1681,7 @@
       <workItem from="1461062654860" duration="19940000" />
       <workItem from="1461144827291" duration="10406000" />
       <workItem from="1461161705398" duration="5812000" />
-      <workItem from="1461218195010" duration="567000" />
+      <workItem from="1461218195010" duration="842000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал доступ к БД и отрисовку index.html, но пока не в очень Spring-овой форме">
       <created>1460987519020</created>
@@ -1225,7 +1711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1461076672822</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Вернул параметры в боевой режим">
+      <created>1461218786214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1461218786214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1261,7 +1754,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83197000" />
+    <option name="totallyTimeSpent" value="83472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1281,31 +1774,31 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3019039" sideWeight="0.5148248" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21185984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3019039" sideWeight="0.4851752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19038984" sideWeight="0.5239892" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30185184" sideWeight="0.4851752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19444445" sideWeight="0.47601077" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.30278885" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3212938" sideWeight="0.69721115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946378" sideWeight="0.69721115" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.30232558" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2473525" sideWeight="0.27032968" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907408" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907408" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.49585405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19038984" sideWeight="0.47816712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1324,7 +1817,8 @@
     <MESSAGE value="реализовал доступ к БД и отрисовку index.html, но пока не в очень Spring-овой форме" />
     <MESSAGE value="сделал запросы в наса и обновление базы по шедулеру раз в сол (точнее раз в 88775245 миллисекуд - это сол?)" />
     <MESSAGE value="Прибрался в шедулере" />
-    <option name="LAST_COMMIT_MESSAGE" value="Прибрался в шедулере" />
+    <MESSAGE value="Вернул параметры в боевой режим" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вернул параметры в боевой режим" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1637,7 +2131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/funkntrash/potato/schedulers/MainScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="465">
           <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
