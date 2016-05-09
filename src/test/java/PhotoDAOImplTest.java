@@ -17,13 +17,14 @@ public class PhotoDAOImplTest {
 
 
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/potato_fields";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/potato_fields_test";
 
     //  Database credentials
     static final String USER = "root";
     static final String PASS = "123456";
 
-    public PhotoDAO photoDAO = new PhotoDAOImpl();
+    public PhotoDAO photoDAO = new PhotoDAOImpl("TestPersistenceUnit");
+
 
     public int getMaxSol(){
 
@@ -80,6 +81,8 @@ public class PhotoDAOImplTest {
 
     @BeforeTest
     public void Before(){
+
+       // photoDAO.setPersistenceUnit("TestPersistenceUnit");
 
         System.out.println("Блок инициализации данных");
 

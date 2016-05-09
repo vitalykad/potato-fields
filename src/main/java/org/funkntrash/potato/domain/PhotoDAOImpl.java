@@ -27,6 +27,12 @@ public class PhotoDAOImpl implements PhotoDAO {
 
     }
 
+    public PhotoDAOImpl(String persistenceUnit){
+
+        entityManagerFactory = Persistence.createEntityManagerFactory(persistenceUnit);
+
+    }
+
     public List<PhotosEntity> listPhoto(){
 
         entityManager = entityManagerFactory.createEntityManager();

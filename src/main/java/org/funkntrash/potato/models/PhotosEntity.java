@@ -14,7 +14,7 @@ public class PhotosEntity {
 
 
     @Id
-    @Column(name = "ID", nullable = false)
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -24,7 +24,7 @@ public class PhotosEntity {
     }
 
     @Basic
-    @Column(name = "URL", nullable = true, length = 256)
+    @Column(name = "url", nullable = true, length = 256)
     public String getUrl() {
         return url;
     }
@@ -34,7 +34,7 @@ public class PhotosEntity {
     }
 
     @Basic
-    @Column(name = "SOL", nullable = true)
+    @Column(name = "sol", nullable = true)
     public Integer getSol() {
         return sol;
     }
