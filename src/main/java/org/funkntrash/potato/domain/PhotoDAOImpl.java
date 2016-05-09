@@ -16,18 +16,20 @@ import java.util.List;
 @Component
 public class PhotoDAOImpl implements PhotoDAO {
 
+    private  EntityManagerFactory entityManagerFactory;
     private EntityManager entityManager;
     private static final String SELECT_ALL_PHOTOS_QUERY = " from PhotosEntity order by sol desc ";
     private static final String SELECT_PHOTO_WITH_MAX_SOL_QUERY = " from PhotosEntity pe where pe.sol in (select max(p.sol) from PhotosEntity p) ";
 
     public PhotoDAOImpl(){
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
-        entityManager = entityManagerFactory.createEntityManager();
+        entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
 
     }
 
     public List<PhotosEntity> listPhoto(){
+
+        entityManager = entityManagerFactory.createEntityManager();
 
         entityManager.getTransaction().begin();
 
@@ -35,20 +37,27 @@ public class PhotoDAOImpl implements PhotoDAO {
 
         entityManager.getTransaction().commit();
 
+        entityManager.close();
+
         return result;
     }
 
     public void addPhoto(PhotosEntity photosEntity){
+
+        entityManager = entityManagerFactory.createEntityManager();
 
         entityManager.getTransaction().begin();
 
         entityManager.persist(photosEntity);
 
         entityManager.getTransaction().commit();
+        entityManager.close();
 
     }
 
     public PhotosEntity getMaxSolPhoto(){
+
+        entityManager = entityManagerFactory.createEntityManager();
 
         entityManager.getTransaction().begin();
 
@@ -60,6 +69,9 @@ public class PhotoDAOImpl implements PhotoDAO {
 
         entityManager.getTransaction().commit();
 
+        entityManager.close();
+
+
         if (!photoList.isEmpty()) {
             return photoList.get(0);
         }
@@ -67,11 +79,12 @@ public class PhotoDAOImpl implements PhotoDAO {
             return null;
         }
 
+
     }
 
     @Override
     protected void finalize() throws Throwable {
-        entityManager.close();
+        //entityManager.close();
         super.finalize();
     }
 }
