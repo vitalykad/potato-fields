@@ -21,7 +21,7 @@ import java.util.Map;
 
 public class MainScheduler {
 
-    private static int current_sol = 0;
+    private int current_sol = 0;
     private static final String ANGRY_BATKO_IMG="http://image.zn.ua/media/images/original/Jan2015/107798.jpg";
     private static final String NO_PHOTO_WARN="Отсутствует фото за сол %d";
     private static final String API_URL="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS";

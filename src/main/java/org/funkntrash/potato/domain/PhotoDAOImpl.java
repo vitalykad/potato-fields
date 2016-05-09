@@ -16,45 +16,40 @@ import java.util.List;
 @Component
 public class PhotoDAOImpl implements PhotoDAO {
 
-    private EntityManagerFactory entityManagerFactory;
+    private EntityManager entityManager;
     private static final String SELECT_ALL_PHOTOS_QUERY = " from PhotosEntity order by sol desc ";
     private static final String SELECT_PHOTO_WITH_MAX_SOL_QUERY = " from PhotosEntity pe where pe.sol in (select max(p.sol) from PhotosEntity p) ";
 
     public PhotoDAOImpl(){
 
-        entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        entityManager = entityManagerFactory.createEntityManager();
 
     }
 
     public List<PhotosEntity> listPhoto(){
 
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
         List<PhotosEntity> result = entityManager.createQuery(SELECT_ALL_PHOTOS_QUERY).getResultList();
 
         entityManager.getTransaction().commit();
-        entityManager.close();
-
 
         return result;
     }
 
     public void addPhoto(PhotosEntity photosEntity){
 
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
         entityManager.persist(photosEntity);
 
         entityManager.getTransaction().commit();
-        entityManager.close();
 
     }
 
     public PhotosEntity getMaxSolPhoto(){
 
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
         // не разобрал почему не сработало
@@ -64,8 +59,6 @@ public class PhotoDAOImpl implements PhotoDAO {
 
 
         entityManager.getTransaction().commit();
-        entityManager.close();
-
 
         if (!photoList.isEmpty()) {
             return photoList.get(0);
@@ -74,5 +67,11 @@ public class PhotoDAOImpl implements PhotoDAO {
             return null;
         }
 
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        entityManager.close();
+        super.finalize();
     }
 }

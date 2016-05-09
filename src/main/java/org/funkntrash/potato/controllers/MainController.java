@@ -16,12 +16,10 @@ import java.util.List;
 @Controller
 public class MainController {
 
-    private int visitorCount = 0;
-
     @Autowired
     private PhotoService photoServiceImpl;
 
-    @RequestMapping("/index.html")
+    @RequestMapping("/")
     public String index(Model model) {
 
         List<PhotosEntity> photos = photoServiceImpl.listPhotos();
