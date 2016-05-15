@@ -45,6 +45,7 @@ public class NasaAPIService {
         try {
 
             nasaAPI = restTemplate.getForObject(API_URL, NasaAPI.class, vars);
+            return nasaAPI.getPhotos().get(0).getImgSrc();
 
         }
         catch (HttpClientErrorException e){
@@ -52,9 +53,11 @@ public class NasaAPIService {
             System.out.format(NO_PHOTO_WARN, sol);
             System.out.println();
 
+            return  "";
+
         }
 
-        return nasaAPI.getPhotos().get(0).getImgSrc();
+
 
     }
 

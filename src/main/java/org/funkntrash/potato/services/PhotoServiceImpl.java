@@ -5,6 +5,7 @@ import org.funkntrash.potato.domain.PhotoDAO;
 import org.funkntrash.potato.models.PhotosEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -31,6 +32,7 @@ public class PhotoServiceImpl implements PhotoService{
 
     }
 
+    @Transactional
     public void addPhoto(PhotosEntity photosEntity){
 
         photoDAOImpl.addPhoto(photosEntity);
