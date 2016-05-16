@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
+import org.apache.log4j.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,8 +22,10 @@ public class NasaAPIService {
     @Autowired
     private PhotoService photoServiceImpl;
 
+    final static Logger logger = Logger.getLogger(NasaAPIService.class);
+
     private static final String API_URL="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS";
-    private static final String NO_PHOTO_WARN="Отсутствует фото за сол %d";
+    private static final String NO_PHOTO_WARN="Отсутствует фото за сол ";
 
     private static RestTemplate restTemplate = new RestTemplate();
 
@@ -50,8 +53,7 @@ public class NasaAPIService {
         }
         catch (HttpClientErrorException e){
 
-            System.out.format(NO_PHOTO_WARN, sol);
-            System.out.println();
+            logger.warn("\n\n" + NO_PHOTO_WARN + sol +"\n");
 
             return  "";
 
