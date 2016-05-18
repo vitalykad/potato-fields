@@ -2,11 +2,9 @@ package org.funkntrash.potato.schedulers;
 
 import org.funkntrash.potato.models.PhotosEntity;
 
-import org.funkntrash.potato.nasa.entities.NasaAPI;
 import org.funkntrash.potato.services.NasaAPIService;
 import org.funkntrash.potato.services.PhotoService;
-import org.json.JSONArray;
-import org.json.JSONObject;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
