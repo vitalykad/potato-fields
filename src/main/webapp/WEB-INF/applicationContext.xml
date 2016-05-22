@@ -15,21 +15,31 @@
 
     <task:annotation-driven />
 
-
-    <bean id="scheduler" class="org.funkntrash.potato.schedulers.MainScheduler">
-    </bean>
-
     <tx:annotation-driven />
+
+    <util:properties id="urls" location="classpath:org/funkntrash/potato/properties/fixedUrls"/>
+    <util:properties id="messages" location="classpath:org/funkntrash/potato/properties/messages"/>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:org/funkntrash/potato/properties/db.properties</value>
+            </list>
+        </property>
+    </bean>
 
     <context:component-scan
             base-package="org.funkntrash.potato"/>
 
+    <bean id="scheduler" class="org.funkntrash.potato.schedulers.MainScheduler">
+    </bean>
+
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/potato_fields" />
-        <property name="username" value="root" />
-        <property name="password" value="root" />
+        <property name="driverClassName" value="${driverClassName}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${username}" />
+        <property name="password" value="${password}" />
     </bean>
 
     <bean id="entityManagerFactory"

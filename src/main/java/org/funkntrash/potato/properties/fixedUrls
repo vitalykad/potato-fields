@@ -1,0 +1,2 @@
+ANGRY_BATKO_IMG=http://image.zn.ua/media/images/original/Jan2015/107798.jpg
+API_URL=https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS

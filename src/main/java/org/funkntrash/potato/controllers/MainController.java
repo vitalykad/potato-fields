@@ -29,4 +29,7 @@ public class MainController {
         return "WEB-INF/jsp/index.jsp";
     }
 
+    public void setPhotoServiceImpl(PhotoService photoServiceImpl) {
+        this.photoServiceImpl = photoServiceImpl;
+    }
 }

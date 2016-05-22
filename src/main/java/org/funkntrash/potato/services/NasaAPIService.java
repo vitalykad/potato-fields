@@ -1,8 +1,8 @@
 package org.funkntrash.potato.services;
 
-import org.funkntrash.potato.models.PhotosEntity;
 import org.funkntrash.potato.nasa.entities.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
@@ -19,13 +19,21 @@ import java.util.Map;
 public class NasaAPIService {
     @Autowired
     private NasaAPI nasaAPI;
-    @Autowired
-    private PhotoService photoServiceImpl;
 
     final static Logger logger = Logger.getLogger(NasaAPIService.class);
 
-    private static final String API_URL="https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol={sol}&camera=fhaz&api_key=ZgBmbEEGqmmJt3v9VyFDhcTHYPMGFYTNoPOUWIUS";
-    private static final String NO_PHOTO_WARN="Отсутствует фото за сол ";
+    private String API_URL="";
+    private String NO_PHOTO_WARN="";
+
+    @Value("#{urls.API_URL}")
+    public void setAPI_URL(String API_URL) {
+        this.API_URL = API_URL;
+    }
+
+    @Value("#{messages.NO_PHOTO_WARN}")
+    public void setNO_PHOTO_WARN(String NO_PHOTO_WARN) {
+        this.NO_PHOTO_WARN = NO_PHOTO_WARN;
+    }
 
     private static RestTemplate restTemplate = new RestTemplate();
 
@@ -53,7 +61,7 @@ public class NasaAPIService {
         }
         catch (HttpClientErrorException e){
 
-            logger.warn("\n\n" + NO_PHOTO_WARN + sol +"\n");
+            logger.warn("\n\n" + NO_PHOTO_WARN + " " + sol +"\n");
 
             return  "";
 

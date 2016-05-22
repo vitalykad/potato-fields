@@ -19,6 +19,9 @@ public class PhotoServiceImpl implements PhotoService{
     @Autowired
     private PhotoDAO photoDAOImpl;
 
+    public void setPhotoDAOImpl(PhotoDAO photoDAOImpl) {
+        this.photoDAOImpl = photoDAOImpl;
+    }
 
     public List<PhotosEntity> listPhotos(){
 

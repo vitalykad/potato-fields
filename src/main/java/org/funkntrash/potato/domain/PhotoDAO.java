@@ -1,7 +1,6 @@
 package org.funkntrash.potato.domain;
 
 import org.funkntrash.potato.models.PhotosEntity;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

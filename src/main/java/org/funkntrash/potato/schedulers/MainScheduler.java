@@ -7,6 +7,7 @@ import org.funkntrash.potato.services.PhotoService;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 
 
@@ -23,13 +24,26 @@ public class MainScheduler {
     private PhotoService photoServiceImpl;
 
     private int current_sol = 0;
+    private final long solInMilliseconds=88775245;
 
-    private static final String ANGRY_BATKO_IMG="http://image.zn.ua/media/images/original/Jan2015/107798.jpg";
-    //Для тестового режим
-    @Scheduled(fixedRate = 10000)
-    //В боевом режиме
-    //@Scheduled(fixedRate = 88775245)
-    private void clearTempFolder() {
+    private String ANGRY_BATKO_IMG="";
+
+    @Value("#{urls.ANGRY_BATKO_IMG}")
+    public void setANGRY_BATKO_IMG(String ANGRY_BATKO_IMG) {
+        this.ANGRY_BATKO_IMG = ANGRY_BATKO_IMG;
+    }
+
+    public void setNasaAPIService(NasaAPIService nasaAPIService) {
+        this.nasaAPIService = nasaAPIService;
+    }
+
+    public void setPhotoServiceImpl(PhotoService photoServiceImpl) {
+        this.photoServiceImpl = photoServiceImpl;
+    }
+
+
+    @Scheduled(fixedRate = solInMilliseconds)
+    protected void updateDbFromNasaApi() {
 
         PhotosEntity photosEntity = photoServiceImpl.getMaxSolPhoto();
 
@@ -44,13 +58,7 @@ public class MainScheduler {
         }
         else {
 
-            //В боевом режиме выбираем последний сол
-
-            //current_sol = nasaAPIService.getMaxSol();
-
-            //На время тестирования используем предпоследний сол
-
-            current_sol = nasaAPIService.getMaxSol()- 1;
+            current_sol = nasaAPIService.getMaxSol();
 
         }
 
