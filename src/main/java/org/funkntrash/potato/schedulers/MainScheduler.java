@@ -3,6 +3,7 @@ package org.funkntrash.potato.schedulers;
 import org.funkntrash.potato.models.PhotosEntity;
 
 import org.funkntrash.potato.services.NasaAPIService;
+import org.funkntrash.potato.services.NasaAPIServiceImpl;
 import org.funkntrash.potato.services.PhotoService;
 
 
@@ -18,7 +19,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 public class MainScheduler {
 
     @Autowired
-    NasaAPIService nasaAPIService;
+    NasaAPIService nasaAPIServiceImpl;
 
     @Autowired
     private PhotoService photoServiceImpl;
@@ -33,8 +34,8 @@ public class MainScheduler {
         this.ANGRY_BATKO_IMG = ANGRY_BATKO_IMG;
     }
 
-    public void setNasaAPIService(NasaAPIService nasaAPIService) {
-        this.nasaAPIService = nasaAPIService;
+    public void setNasaAPIServiceImpl(NasaAPIService nasaAPIServiceImpl) {
+        this.nasaAPIServiceImpl = nasaAPIServiceImpl;
     }
 
     public void setPhotoServiceImpl(PhotoService photoServiceImpl) {
@@ -58,11 +59,11 @@ public class MainScheduler {
         }
         else {
 
-            current_sol = nasaAPIService.getMaxSol();
+            current_sol = nasaAPIServiceImpl.getMaxSol();
 
         }
 
-        String img_src = nasaAPIService.getPhotoSrc(current_sol);
+        String img_src = nasaAPIServiceImpl.getPhotoSrc(current_sol);
 
         PhotosEntity photo = new PhotosEntity();
         photo.setSol(current_sol);

@@ -1,12 +1,12 @@
 package org.funkntrash.potato.schedulers;
 
-import org.funkntrash.potato.controllers.MainController;
-import org.funkntrash.potato.services.PhotoServiceImplMock;
-import org.testng.annotations.BeforeTest;
+import org.funkntrash.potato.models.PhotosEntity;
+import org.funkntrash.potato.nasa.entities.Photo;
+import org.funkntrash.potato.services.*;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.springframework.ui.Model;
-
-import static org.testng.Assert.assertEquals;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 
 /**
@@ -16,20 +16,37 @@ import static org.testng.Assert.assertEquals;
 
 public class MainSchedulerTest {
 
-    public MainScheduler mainScheduler;
+    public MainScheduler mainScheduler = new MainScheduler();
+    public NasaAPIService nasaAPIService;
+    public PhotoService photoService;
+    public PhotosEntity photosEntity;
 
-    @BeforeTest
+    @BeforeMethod
     public void Before(){
 
-        mainScheduler.setPhotoServiceImpl(new PhotoServiceImplMock());
+        nasaAPIService = mock(NasaAPIServiceImpl.class);
+        photoService = mock(PhotoServiceImpl.class);
+        photosEntity = mock(PhotosEntity.class);
+
+        mainScheduler.setNasaAPIServiceImpl(nasaAPIService);
+        mainScheduler.setPhotoServiceImpl(photoService);
 
     }
+
+
 
     @Test
     public void Test(){
+
         mainScheduler.updateDbFromNasaApi();
 
+        verify(nasaAPIService).getMaxSol();
+        verify(nasaAPIService).getPhotoSrc(0);
+
+        verify(photoService).getMaxSolPhoto();
+
     }
+
 }
 
 
